@@ -1,9 +1,15 @@
 {
   "name": "mcp-toolbox",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "description": "Serveur MCP utilitaire sur Cloudflare Workers (base64, hash, dates, regex, etc.)",
   "private": true,
   "type": "module",
-  "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "dependencies": { "express": "^4.19.2" }
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
 }
