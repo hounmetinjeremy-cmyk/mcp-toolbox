@@ -9,13 +9,12 @@ Transport : **SSE (Server-Sent Events)**.
 - Transport SSE maison (sans Express)
 - Protocol MCP 2024-11-05
 
-## 🚀 Démarrage
+## 🚀 Déploiement
 
 ```bash
 npm install
 npx wrangler login
-npx wrangler dev      # test local
-npx wrangler deploy   # déploiement
+npx wrangler deploy
 ```
 
 ## 🔌 Endpoints
